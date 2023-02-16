@@ -1,0 +1,12 @@
+D:\Repositorio_git\13_Projetos\SistemaNotasEscolarDesktop\SistemaEscolar\SistemaEscolar\bin\Debug\SistemaEscolar.exe.config
+D:\Repositorio_git\13_Projetos\SistemaNotasEscolarDesktop\SistemaEscolar\SistemaEscolar\bin\Debug\SistemaEscolar.exe
+D:\Repositorio_git\13_Projetos\SistemaNotasEscolarDesktop\SistemaEscolar\SistemaEscolar\bin\Debug\SistemaEscolar.pdb
+D:\Repositorio_git\13_Projetos\SistemaNotasEscolarDesktop\SistemaEscolar\SistemaEscolar\obj\Debug\SistemaEscolar.csprojAssemblyReference.cache
+D:\Repositorio_git\13_Projetos\SistemaNotasEscolarDesktop\SistemaEscolar\SistemaEscolar\obj\Debug\SistemaEscolar.FrmPrincipal.resources
+D:\Repositorio_git\13_Projetos\SistemaNotasEscolarDesktop\SistemaEscolar\SistemaEscolar\obj\Debug\SistemaEscolar.Properties.Resources.resources
+D:\Repositorio_git\13_Projetos\SistemaNotasEscolarDesktop\SistemaEscolar\SistemaEscolar\obj\Debug\SistemaEscolar.csproj.GenerateResource.cache
+D:\Repositorio_git\13_Projetos\SistemaNotasEscolarDesktop\SistemaEscolar\SistemaEscolar\obj\Debug\SistemaEscolar.csproj.CoreCompileInputs.cache
+D:\Repositorio_git\13_Projetos\SistemaNotasEscolarDesktop\SistemaEscolar\SistemaEscolar\obj\Debug\SistemaEscolar.exe
+D:\Repositorio_git\13_Projetos\SistemaNotasEscolarDesktop\SistemaEscolar\SistemaEscolar\obj\Debug\SistemaEscolar.pdb
+D:\Repositorio_git\13_Projetos\SistemaNotasEscolarDesktop\SistemaEscolar\SistemaEscolar\obj\Debug\SistemaEscolar.FrmAlunos.resources
+D:\Repositorio_git\13_Projetos\SistemaNotasEscolarDesktop\SistemaEscolar\SistemaEscolar\obj\Debug\SistemaEscolar.FrmNotas.resources
