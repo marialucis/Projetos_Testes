@@ -35,7 +35,7 @@
             // 
             // btnAlunos
             // 
-            this.btnAlunos.Location = new System.Drawing.Point(12, 12);
+            this.btnAlunos.Location = new System.Drawing.Point(210, 22);
             this.btnAlunos.Name = "btnAlunos";
             this.btnAlunos.Size = new System.Drawing.Size(75, 23);
             this.btnAlunos.TabIndex = 0;
@@ -45,7 +45,7 @@
             // 
             // btnNotas
             // 
-            this.btnNotas.Location = new System.Drawing.Point(150, 12);
+            this.btnNotas.Location = new System.Drawing.Point(348, 22);
             this.btnNotas.Name = "btnNotas";
             this.btnNotas.Size = new System.Drawing.Size(75, 23);
             this.btnNotas.TabIndex = 1;
@@ -55,7 +55,7 @@
             // 
             // btnProf
             // 
-            this.btnProf.Location = new System.Drawing.Point(286, 12);
+            this.btnProf.Location = new System.Drawing.Point(484, 22);
             this.btnProf.Name = "btnProf";
             this.btnProf.Size = new System.Drawing.Size(75, 23);
             this.btnProf.TabIndex = 2;
