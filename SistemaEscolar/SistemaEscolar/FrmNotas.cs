@@ -17,8 +17,11 @@ namespace SistemaEscolar
             InitializeComponent();
         }
         //variaveis
-        double media;
-        double nota1, nota2, nota3, nota4;
+        public double media {get;set;}
+        public double nota1 {get;set;}
+        public double nota2 {get;set;} 
+        public double nota3 {get; set;}
+        public double nota4 {get; set;}
 
         //metodo que obtem as notas do aluno
         public void ObterNotas()

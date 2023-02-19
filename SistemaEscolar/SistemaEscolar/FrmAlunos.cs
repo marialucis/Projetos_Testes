@@ -17,16 +17,16 @@ namespace SistemaEscolar
             InitializeComponent();
         }
 
-        //variaveis
-        String nomeAlterado;
-
-
+        //variaveis/propridad
+       public String nomeAlterado { get; set; }
+       public String nomeAluno { get; set; }
+        public String DtaNas { get; set; }
 
         //criando metodo para obter os dados do aluno
         public void DadosAlunos()
         {
-            txtnomeAluno = txtnomeAluno;
-            txtdtaN = txtdtaN;
+            nomeAluno = txtnomeAluno.Text;
+            DtaNas = txtdtaN.Text;
 
         }
 
