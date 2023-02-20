@@ -38,13 +38,15 @@
             this.lblnota4 = new System.Windows.Forms.Label();
             this.lblresult = new System.Windows.Forms.Label();
             this.btnCalcula = new System.Windows.Forms.Button();
+            this.txtNomeA = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // lblnota1
             // 
             this.lblnota1.AutoSize = true;
             this.lblnota1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblnota1.Location = new System.Drawing.Point(10, 105);
+            this.lblnota1.Location = new System.Drawing.Point(13, 137);
             this.lblnota1.Name = "lblnota1";
             this.lblnota1.Size = new System.Drawing.Size(53, 13);
             this.lblnota1.TabIndex = 0;
@@ -52,7 +54,7 @@
             // 
             // txtnota1
             // 
-            this.txtnota1.Location = new System.Drawing.Point(80, 102);
+            this.txtnota1.Location = new System.Drawing.Point(83, 134);
             this.txtnota1.Name = "txtnota1";
             this.txtnota1.Size = new System.Drawing.Size(100, 20);
             this.txtnota1.TabIndex = 1;
@@ -61,7 +63,7 @@
             // 
             this.lblnota2.AutoSize = true;
             this.lblnota2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblnota2.Location = new System.Drawing.Point(10, 146);
+            this.lblnota2.Location = new System.Drawing.Point(13, 178);
             this.lblnota2.Name = "lblnota2";
             this.lblnota2.Size = new System.Drawing.Size(53, 13);
             this.lblnota2.TabIndex = 2;
@@ -69,21 +71,21 @@
             // 
             // txtnota2
             // 
-            this.txtnota2.Location = new System.Drawing.Point(80, 143);
+            this.txtnota2.Location = new System.Drawing.Point(83, 175);
             this.txtnota2.Name = "txtnota2";
             this.txtnota2.Size = new System.Drawing.Size(100, 20);
             this.txtnota2.TabIndex = 3;
             // 
             // txtnota3
             // 
-            this.txtnota3.Location = new System.Drawing.Point(369, 98);
+            this.txtnota3.Location = new System.Drawing.Point(372, 130);
             this.txtnota3.Name = "txtnota3";
             this.txtnota3.Size = new System.Drawing.Size(100, 20);
             this.txtnota3.TabIndex = 4;
             // 
             // txtnota4
             // 
-            this.txtnota4.Location = new System.Drawing.Point(369, 144);
+            this.txtnota4.Location = new System.Drawing.Point(372, 176);
             this.txtnota4.Name = "txtnota4";
             this.txtnota4.Size = new System.Drawing.Size(100, 20);
             this.txtnota4.TabIndex = 5;
@@ -92,7 +94,7 @@
             // 
             this.lblnota3.AutoSize = true;
             this.lblnota3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblnota3.Location = new System.Drawing.Point(299, 101);
+            this.lblnota3.Location = new System.Drawing.Point(302, 133);
             this.lblnota3.Name = "lblnota3";
             this.lblnota3.Size = new System.Drawing.Size(53, 13);
             this.lblnota3.TabIndex = 6;
@@ -102,7 +104,7 @@
             // 
             this.lblnota4.AutoSize = true;
             this.lblnota4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblnota4.Location = new System.Drawing.Point(299, 147);
+            this.lblnota4.Location = new System.Drawing.Point(302, 179);
             this.lblnota4.Name = "lblnota4";
             this.lblnota4.Size = new System.Drawing.Size(53, 13);
             this.lblnota4.TabIndex = 7;
@@ -126,6 +128,23 @@
             this.btnCalcula.UseVisualStyleBackColor = true;
             this.btnCalcula.Click += new System.EventHandler(this.btnCalcula_Click);
             // 
+            // txtNomeA
+            // 
+            this.txtNomeA.Location = new System.Drawing.Point(112, 47);
+            this.txtNomeA.Name = "txtNomeA";
+            this.txtNomeA.Size = new System.Drawing.Size(363, 20);
+            this.txtNomeA.TabIndex = 11;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(10, 50);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(83, 13);
+            this.label1.TabIndex = 12;
+            this.label1.Text = "Nome Aluno: ";
+            // 
             // FrmNotas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -133,6 +152,8 @@
             this.BackColor = System.Drawing.SystemColors.InactiveCaption;
             this.CausesValidation = false;
             this.ClientSize = new System.Drawing.Size(554, 369);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.txtNomeA);
             this.Controls.Add(this.btnCalcula);
             this.Controls.Add(this.lblresult);
             this.Controls.Add(this.lblnota4);
@@ -165,5 +186,7 @@
         private System.Windows.Forms.Label lblnota4;
         private System.Windows.Forms.Label lblresult;
         private System.Windows.Forms.Button btnCalcula;
+        private System.Windows.Forms.TextBox txtNomeA;
+        private System.Windows.Forms.Label label1;
     }
 }

@@ -1,11 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace SistemaEscolar
@@ -22,7 +15,7 @@ namespace SistemaEscolar
         public double nota2 {get;set;} 
         public double nota3 {get; set;}
         public double nota4 {get; set;}
-
+        public string nomeA { get;set;}
         //metodo que obtem as notas do aluno
         public void ObterNotas()
         {
@@ -46,7 +39,7 @@ namespace SistemaEscolar
             txtnota2.Clear();
             txtnota3.Clear();
             txtnota4.Clear();
-
+            txtNomeA.Clear();
         }
 
         //metodo que vai verificar a situação 'Aprovado', 'Recuperação', 'Reprovado'
@@ -67,13 +60,20 @@ namespace SistemaEscolar
             }
 
         }
-
+        
+        public void ObtemAluno() 
+        {
+            nomeA = txtNomeA.Text;
+            FrmAlunos frmAlunos = new FrmAlunos();
+            frmAlunos.nomeAluno = nomeA;
+              
+                }
 
         private void btnCalcula_Click(object sender, EventArgs e)
         {
-
+            ObtemAluno();
             CalculaMedia();
-            MessageBox.Show("A sua media é: " + media);
+            MessageBox.Show($"Olá {nomeA}a sua media é:{media}");
             VerificaSituacaoAluno();
             LimpaDados();
 

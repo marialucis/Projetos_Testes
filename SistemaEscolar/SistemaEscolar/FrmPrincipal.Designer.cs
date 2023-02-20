@@ -61,6 +61,7 @@
             this.btnProf.TabIndex = 2;
             this.btnProf.Text = "Professor";
             this.btnProf.UseVisualStyleBackColor = true;
+            this.btnProf.Click += new System.EventHandler(this.btnProf_Click);
             // 
             // FrmPrincipal
             // 

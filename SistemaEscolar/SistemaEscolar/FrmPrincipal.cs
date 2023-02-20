@@ -29,5 +29,11 @@ namespace SistemaEscolar
             FrmNotas frmNotas = new FrmNotas(); //inicializa o objeto do formulario notas
             frmNotas.ShowDialog();
         }
+
+        private void btnProf_Click(object sender, EventArgs e)
+        {
+            FrmProf frmProf = new FrmProf();
+            frmProf.ShowDialog();
+        }
     }
 }
