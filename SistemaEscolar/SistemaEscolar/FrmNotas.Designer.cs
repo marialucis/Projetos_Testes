@@ -58,6 +58,7 @@
             this.txtnota1.Name = "txtnota1";
             this.txtnota1.Size = new System.Drawing.Size(100, 20);
             this.txtnota1.TabIndex = 1;
+            this.txtnota1.TextChanged += new System.EventHandler(this.txtnota1_TextChanged);
             // 
             // lblnota2
             // 
@@ -75,6 +76,7 @@
             this.txtnota2.Name = "txtnota2";
             this.txtnota2.Size = new System.Drawing.Size(100, 20);
             this.txtnota2.TabIndex = 3;
+            this.txtnota2.TextChanged += new System.EventHandler(this.txtnota2_TextChanged);
             // 
             // txtnota3
             // 
@@ -82,6 +84,7 @@
             this.txtnota3.Name = "txtnota3";
             this.txtnota3.Size = new System.Drawing.Size(100, 20);
             this.txtnota3.TabIndex = 4;
+            this.txtnota3.TextChanged += new System.EventHandler(this.txtnota3_TextChanged);
             // 
             // txtnota4
             // 
@@ -89,6 +92,7 @@
             this.txtnota4.Name = "txtnota4";
             this.txtnota4.Size = new System.Drawing.Size(100, 20);
             this.txtnota4.TabIndex = 5;
+            this.txtnota4.TextChanged += new System.EventHandler(this.txtnota4_TextChanged);
             // 
             // lblnota3
             // 

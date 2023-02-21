@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Windows.Forms;
+using System.Text.RegularExpressions;
 
 namespace SistemaEscolar
 {
@@ -78,8 +79,62 @@ namespace SistemaEscolar
             LimpaDados();
 
         }
+        //Validacao com regex
+        Regex regex = new Regex(@"^\d*[0-9]+$");
+        private void txtnota1_TextChanged(object sender, EventArgs e)
+        {
+            if (regex.IsMatch(txtnota1.Text))
+            {
 
+                nota1 =Convert.ToDouble(txtnota1.Text);
+                
+            }
+            else
+            {
+                MessageBox.Show("numero invalido");
+                txtnota1.Clear();
+                
+            }
+        }
 
-    
+        private void txtnota2_TextChanged(object sender, EventArgs e)
+        {
+            if (regex.IsMatch(txtnota2.Text))
+            {
+                nota2 = Convert.ToDouble(txtnota2.Text);
+            }
+            else
+            {
+                txtnota2.Clear();
+                MessageBox.Show("numero invalido");
+            }
+        }
+
+        private void txtnota3_TextChanged(object sender, EventArgs e)
+        {
+            if (regex.IsMatch(txtnota3.Text))
+            {
+                nota3 = Convert.ToDouble(txtnota3.Text);
+            }
+            else
+            {
+                txtnota3.Clear();
+                MessageBox.Show("numero invalido");
+            }
+        }
+
+        private void txtnota4_TextChanged(object sender, EventArgs e)
+        {
+            if (regex.IsMatch(txtnota4.Text))
+            {
+                nota4 = Convert.ToDouble(txtnota4.Text);
+            }
+            else
+            {
+                txtnota4.Clear();
+                MessageBox.Show("numero invalido");
+                
+            }
+        }
     }
 }
