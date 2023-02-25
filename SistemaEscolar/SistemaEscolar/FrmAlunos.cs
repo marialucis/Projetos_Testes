@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Text.RegularExpressions;
 
 namespace SistemaEscolar
 {
@@ -20,13 +21,28 @@ namespace SistemaEscolar
         //variaveis/propridad
        public String nomeAlterado { get; set; }
        public String nomeAluno { get; set; }
-        public String DtaNas { get; set; }
+       public String DtaNas { get; set; }
+
+        //validacao com 
+        Regex regexValidaAluno = new Regex(@"/^[a-z0-9.]+@[a-z0-9]+\.[a-z]+\.([a-z]+)?$/i;");
 
         //criando metodo para obter os dados do aluno
         public void DadosAlunos()
         {
             nomeAluno = txtnomeAluno.Text;
             DtaNas = txtdtaN.Text;
+
+            if (regexValidaAluno.IsMatch(nomeAluno)) 
+            {
+                nomeAluno = txtnomeAluno.Text;
+            
+            }
+            else 
+            {
+                MessageBox.Show("Nome Invalido!");
+            }
+
+
 
         }
 
